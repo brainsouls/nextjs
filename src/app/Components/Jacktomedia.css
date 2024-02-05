@@ -1,0 +1,289 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.jack-media-div1{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    position: relative;
+}
+
+.jack-media-text1{
+color: #030F17;
+font-family: Helvetica;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: 65px; /* 64.615% */
+
+}
+
+.jack-media-text2{
+color: #1A1A1A;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; /* 166.667% */
+margin-top: 12px;
+}
+
+.jack-media-div2{
+margin-top: 65px;
+row-gap: 55px;
+}
+
+.jack-media-img1{
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.jack-media-text3{
+color: #1E1E1E;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.jack-media-text4{
+color: #1E1E1E;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.jack-work-div1{
+background: #FFEBD1;
+padding-top: 110px;
+padding-bottom: 100px;
+}
+
+.jack-work-text1{
+color: #030F17;
+text-align: center;
+font-family: Helvetica;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 107.692% */
+}
+
+.jack-work-text2{
+color: #1A1A1A;
+font-family: Poppins;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; /* 166.667% */
+margin-top: 10px;
+}
+
+.jack-work-div2{
+margin-top: 53px;
+}
+
+
+.jack-work-carddiv1{
+border-radius: 0px 0px 50px 0px;
+border: 2px solid #A96710;
+background: radial-gradient(63.86% 63.68% at 38.57% 37.35%, #FFCE8D 0%, #FFA023 100%);
+padding: 55px 30px;
+display: grid;
+justify-content: center;
+position: relative;
+align-items: center;
+}
+
+.jack-work-cardtext1{
+/* text-align: center; */
+font-family: Helvetica;
+font-size: 110px;
+font-style: normal;
+font-weight: 700;
+line-height: 0.95; /* 56% */
+background: linear-gradient(95deg, #654315 5.83%, #241500 90.89%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.jack-work-cardtext2{
+color: #1A1A1A;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 24px; /* 166.667% */
+}
+
+.jack-work-cardbtn2{
+    background: #030F17;
+    width: 74px;
+height: 74px;
+flex-shrink: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+bottom: 12px;
+right: 12px;
+border-radius: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+.work-showcase-btn1{
+    width: 400px;
+height: 78px;
+flex-shrink: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+    border-radius: 60px;
+border: 2px solid #FFF;
+background: linear-gradient(90deg, #2B2B2B 0.29%, #000 99.77%);
+box-shadow: 0px 10px 24px 0px rgba(255, 194, 111, 0.30);
+    color: #FFF;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 125% */
+margin-top: 100px;
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .jack-media-div1{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.jack-media-text1{
+font-size: 36px;
+line-height: 46px; /* 64.615% */
+text-align: center;
+
+}
+
+.jack-media-text2{
+font-size: 18px;
+line-height: 27px; /* 166.667% */
+margin-top: 12px;
+text-align: center;
+}
+
+
+.jack-media-div2{
+margin-top: 55px;
+row-gap: 40px;
+}
+
+.jack-media-div2 div{
+display: grid;
+justify-content: center;
+}
+
+.jack-media-img1{
+    height: 100px;
+    display: flex;
+    align-items: start;
+}
+
+.jack-media-text3{
+font-size: 22px;
+text-align: center;
+}
+
+.jack-media-text4{
+font-size: 16px;
+padding-right: 15px;
+padding-left: 15px;
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.jack-work-div1{
+padding-top: 80px;
+padding-bottom: 80px;
+}
+
+.jack-work-text1{
+font-size: 36px;
+line-height: 47px; /* 107.692% */
+}
+
+.jack-work-text2{
+font-size: 18px;
+line-height: 27px; /* 166.667% */
+margin-top: 10px;
+}
+
+
+.jack-work-div2{
+margin-top: 60px;
+row-gap: 20px;
+}
+
+
+.jack-work-carddiv1{
+border-radius: 0px 0px 50px 0px;
+border: 2px solid #A96710;
+background: radial-gradient(63.86% 63.68% at 38.57% 37.35%, #FFCE8D 0%, #FFA023 100%);
+padding: 52px 30px;
+display: grid;
+justify-content: center;
+position: relative;
+align-items: center;
+}
+
+
+.work-showcase-btn1 {
+    width: 310px;
+    height: 78px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 65px;
+}
+}

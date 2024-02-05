@@ -1,0 +1,299 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+a:hover {
+  text-decoration: none !important;
+}
+
+
+.ebc-amazon-div2{
+padding-top: 90px;
+padding-bottom: 90px;
+position: relative;
+}
+
+.ebc-amazon-text1{
+color: #1E1E1E;
+font-family: Helvetica;
+font-size: 46px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.ebc-image-sec-cardsdiv2{
+    margin-top: 65px;
+}
+
+.ebc-image-listing-img1{
+min-height: 120px;
+display: flex;
+align-items: center;
+}
+
+.ebc-images-listing-text1{
+color: #202026;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px; /* 150% */
+}
+
+.ebc-images-listing-text2{
+color: #6C757D;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 150% */
+padding-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+.ebc-amazon-home-secdiv3{
+  background-image: url(../Images/Rectangle.png);
+  background-color: #0b232b;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  
+}
+
+.ebc-listing-img-text12{
+color: #FFF;
+font-family: Helvetica;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 112.5% */
+}
+
+.ebc-listing-img-text22{
+color: #D7D7D7;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 150% */
+margin-top: 15px;
+}
+
+.ebc-images-ul-text1{
+padding-left: 17.5px;
+}
+
+.ebc-images-ul-text1 li{
+color: #D7D7D7;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 150% */
+margin-top: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+.lightebc-amazon-home-secdiv3{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  
+}
+
+.lightebc-listing-img-text12{
+color: #000000;
+font-family: Helvetica;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 112.5% */
+}
+
+.lightebc-listing-img-text22{
+color: #6C757D;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 150% */
+margin-top: 15px;
+}
+
+.lightebc-images-ul-text1{
+padding-left: 17.5px;
+}
+
+.lightebc-images-ul-text1 li{
+color: #6C757D;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 150% */
+margin-top: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ####################     Mobile Screen Css Media Queris ####################### */
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+.ebc-amazon-div2{
+padding-top: 75px;
+padding-bottom: 75px;
+position: relative;
+}
+
+.ebc-amazon-text1{
+font-size: 30px;
+line-height: 37px;
+text-align: center;
+}
+
+.ebc-image-sec-cardsdiv2{
+    margin-top: 30px;
+}
+
+.ebc-image-listing-img1{
+min-height: 50px;
+display: flex;
+align-items: start;
+justify-content: center;
+margin-top: 28px;
+}
+
+.ebc-images-listing-text1{
+font-size: 22px;
+line-height: 30px; /* 150% */
+margin-top: 20px;
+text-align: center;
+}
+
+
+.ebc-images-listing-text2{
+font-size: 17px;
+padding-right: 20px;
+text-align: center;
+padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+.ebc-amazon-home-secdiv3 {
+    padding-top: 75px;
+    padding-bottom: 70px;
+    position: relative;
+}
+
+.ebc-listing-img-text12 {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.ebc-listing-img-text22 {
+    font-size: 17px;
+    line-height: 27px;
+    margin-top: 15px;
+}
+
+.ebc-images-ul-text1 {
+    padding-left: 19.5px;
+}
+
+.ebc-images-ul-text1 li {
+    font-size: 17px;
+    line-height: 27px;
+    margin-top: 20px;
+}
+
+.ebc-listing-img-div12-formobile{
+  margin-top: 45px;
+}
+
+
+
+
+
+
+
+.lightebc-amazon-home-secdiv3{
+  padding-top: 75px;
+  padding-bottom: 67px;
+  position: relative;
+  
+}
+
+.lightebc-listing-img-text12{
+font-size: 30px;
+line-height: 36px; /* 112.5% */
+}
+
+.lightebc-listing-img-text22{
+font-size: 17px;
+line-height: 27px; /* 150% */
+margin-top: 15px;
+}
+
+.lightebc-listing-img-text22{
+color: #6C757D;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 150% */
+margin-top: 15px;
+}
+
+.lightebc-images-ul-text1{
+padding-left: 19.5px;
+}
+
+.lightebc-images-ul-text1 li{
+font-size: 17px;
+line-height: 27px; /* 150% */
+margin-top: 20px;
+}
+}

@@ -1,0 +1,470 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.plan-member-div1 {
+  padding-top: 110px;
+  padding-bottom: 110px;
+  position: relative;
+}
+
+.plan-member-text1 {
+  color: #000;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 118.519% */
+}
+
+.plan-member-text2 {
+  color: #171717;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; /* 130.769% */
+  margin-top: 12px;
+}
+
+.plan-member-carddiv112 {
+  margin-top: 80px;
+}
+
+.plan-member-carddiv1 {
+  border-radius: 15px;
+  border: 1.061px solid #d1d1d1;
+  background: linear-gradient(
+    180deg,
+    rgba(237, 237, 237, 0.7) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: 10px 14px 34px 0px rgba(191, 191, 191, 0.15);
+  backdrop-filter: blur(80px);
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 25px;
+}
+
+.plan-member-cardtext1 {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 106.667% */
+  margin-bottom: 0px;
+}
+
+.plan-member-cardtext1 span {
+  color: #f90;
+  font-family: Helvetica;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 0px;
+}
+
+.plan-member-cardtext2 {
+  color: #171717;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 212.5% */
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+
+.plan-member-cardbtn1 {
+  color: #0d2a33;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 0px;
+  border-radius: 40px;
+  border: 1px solid #000;
+  background: linear-gradient(92deg, #ffd390 50.05%, #ffb649 99.05%);
+  display: inline-flex;
+  padding: 4px 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+.plan-member-cardtext3 {
+  color: #5c5c5c;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 212.5% */
+}
+
+.plan-member-cardbtndiv2 {
+  margin-top: 120px;
+}
+
+.plan-member-cardbtn2 {
+  width: 90%;
+  height: 68px;
+  flex-shrink: 0;
+  border-radius: 15.139px;
+  background: linear-gradient(93deg, #0b232b 1.76%, #124354 68.29%);
+  color: #fff;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 320% */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 16px;
+}
+
+.plan-members-carddiv112 {
+  border-radius: 10px;
+  border: 1.062px solid #a0a0a0;
+  /* background: linear-gradient(180deg, rgba(71, 71, 71, 0.60) 100%, rgba(0, 0, 0, 0.00) 100%); */
+  background-color: #0b232b;
+  box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(82px);
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 25px;
+}
+
+.plan-member-cardtext112 {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px; /* 106.667% */
+  margin-bottom: 0px;
+}
+
+.plan-member-cardtext112 span {
+  color: #f90;
+  font-family: Helvetica;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 0px;
+}
+
+.plan-member-cardtext212 {
+  color: #b6b6b6;
+  /* text-align: center; */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 0px;
+  line-height: 28px; /* 212.5% */
+}
+
+.plan-member-cardtext312 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 212.5% */
+}
+
+.plan-member-cardbtn212 {
+  width: 90%;
+  height: 68px;
+  flex-shrink: 0;
+  border-radius: 15.139px;
+  background: linear-gradient(92deg, #f90 0%, #ffb547 99.54%);
+  color: #fff;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 320% */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 16px;
+}
+
+.add-web-div1 {
+  margin-top: 35px;
+}
+
+.add-web-div2 {
+  border-radius: 15px;
+  border: 1.061px solid #d1d1d1;
+  background: linear-gradient(
+    180deg,
+    rgba(237, 237, 237, 0.7) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: 10px 14px 34px 0px rgba(191, 191, 191, 0.15);
+  backdrop-filter: blur(80px);
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.add-web-text1 {
+  color: #525252;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 0px;
+}
+
+.add-web-text2 {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px; /* 246.154% */
+}
+
+.add-web-text3 {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 106.667% */
+}
+
+.add-web-text3 span {
+  color: #f90;
+  font-family: Helvetica;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.add-web-div3 {
+  border-radius: 15px;
+  border: 1.061px solid #d1d1d1;
+  background: linear-gradient(
+    180deg,
+    rgba(237, 237, 237, 0.7) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: 10px 14px 34px 0px rgba(191, 191, 191, 0.15);
+  backdrop-filter: blur(80px);
+  height: 100%;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.add-web-text4 {
+  color: #525252;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+}
+
+.add-web-text5 {
+  color: #171717;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px; /* 113.333% */
+  text-decoration-line: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ####################     Mobile Screen Css Media Queris ####################### */
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+.plan-member-div1 {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    position: relative;
+}
+
+.plan-member-text1 {
+    color: #000;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+
+.plan-member-text2 {
+    color: #171717;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0px;
+}
+
+
+.plan-member-carddiv112 {
+    margin-top: 50px;
+    row-gap: 30px;
+}
+
+.plan-member-carddiv1 {
+    padding-top: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+}
+
+
+.plan-member-cardtext1 {
+    font-size: 54px;
+}
+
+.plan-member-cardtext1 span{
+    font-size: 54px;
+}
+
+.plan-member-cardbtn1 {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.plan-member-cardbtndiv2 {
+    margin-top: 100px;
+}
+
+.plan-members-carddiv112 {
+    padding-left: 40px;
+    padding-top: 35px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+}
+
+.plan-member-cardtext112 {
+    font-size: 54px;
+}
+
+.plan-member-cardtext112 span{
+    font-size: 54px;
+}
+
+
+.add-web-div3 {
+ 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.add-web-text4 {
+    color: #525252;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 0px;
+}
+
+
+.add-web-text5 {
+    font-size: 17px;
+    line-height: 28px;
+}
+
+
+.add-web-div-img212 {
+   display: flex;
+   justify-content: center;
+}
+
+.add-web-div-img212 img{
+  width: 125px;
+  height: 120px;
+  transform: translateX(-20px);
+}
+
+
+.add-web-div2 {
+    padding-top: 24px;
+    padding-bottom: 14px;
+}
+
+.add-web-div1 {
+    margin-top: 45px;
+    row-gap: 18px;
+}
+}

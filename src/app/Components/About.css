@@ -1,0 +1,142 @@
+.about-banner-div1 {
+  background-image: url(../Images/Rectangle.png);
+  background-color: #0b232b;
+  min-height: 100vh;
+  padding-top: 80px;
+  /* padding-bottom: 100px; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.about-banner-text1 {
+  color: #fff;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; /* 64.615% */
+}
+
+.about-banner-text2 {
+  background: linear-gradient(90deg, #ffad40 1.71%, #ffd7a2 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 74px; /* 65.625% */
+  margin-top: 10px;
+}
+
+.about-banner-text3 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 34px; /* 166.667% */
+  margin-top: 30px;
+}
+
+.about-banner-svg1 {
+  position: absolute;
+  bottom: -101px;
+  right: 150px;
+}
+
+.about-ethos-div1 {
+  padding-top: 130px;
+  padding-bottom: 70px;
+}
+
+.about-ethos-text1 {
+  color: #030f17;
+  font-family: Helvetica;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px; /* 64.615% */
+  margin-top: 75px;
+}
+
+.about-ethos-text2 {
+  color: #1a1a1a;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 166.667% */
+  margin-top: 40px;
+}
+
+.about-ethos-img2 {
+  margin-top: 50px;
+}
+
+/* ####################     Mobile Screen Css Media Queris ####################### */
+
+@media screen and (max-width: 576px) {
+  .about-banner-div1 {
+    padding-top: 160px;
+    min-height: 80vh;
+    padding-bottom: 80px;
+  }
+
+  .about-banner-text1 {
+    font-size: 44px;
+    line-height: 48px;
+  }
+
+  .about-banner-text2 {
+    font-size: 44px;
+    line-height: 50px;
+    margin-top: 0px;
+  }
+
+  .about-banner-text3 {
+    font-size: 17px;
+    line-height: 32px;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .about-banner-svg1 {
+    bottom: -68px;
+    right: 25px;
+    width: 180px;
+    height: 181px;
+  }
+
+  .about-ethos-div1 {
+    padding-top: 85px;
+    padding-bottom: 20px;
+  }
+
+  .about-ethos-text1 {
+    font-size: 42px;
+    line-height: 42px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .about-ethos-text2 {
+    font-size: 17px;
+    line-height: 27px;
+    margin-top: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+  }
+
+  .about-ethos-img2 {
+    margin-top: 20px;
+  }
+}
