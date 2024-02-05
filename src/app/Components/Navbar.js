@@ -99,7 +99,7 @@ function Navbar() {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
-            onClick={() => settoggle(!toggle)}
+            onClick={() => {settoggle(!toggle); setnavopen(false)}}
           >
             <svg
               width="28"
@@ -129,14 +129,14 @@ function Navbar() {
             </svg>
           </button>
 
-          <Link class="navbar-brand" href="/" onClick={() => settoggle(true)}>
+          <Link class="navbar-brand" href="/" onClick={() =>{ settoggle(true); setnavopen(false)}}>
             <Image src={mobilelogopic} className="" width="90" />
           </Link>
           
           <div 
             class={`${toggle
-              ? "navbar-collapse mobile-navbar-div2"
-              : "navbar-collapse mobile-navbar-div2 show"
+              ? "mobile-navbar-div2"
+              : "mobile-navbar-div2 show"
               } `}
             id="navbarSupportedContent"
           >
@@ -148,6 +148,7 @@ function Navbar() {
                   href="/about"
                   onClick={() => {
                     settoggle(!toggle);
+                    setnavopen(false)
                   }}
                 >
                   About Us
@@ -156,27 +157,30 @@ function Navbar() {
 
 
               <li class="nav-item dropdown mobile-nav-item home1">
-                <a class="nav-link dropdown-toggle navbar-text1" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle navbar-text1"  onClick={() => setnavopen(!navopen)} role="button" data-toggle="dropdown" aria-expanded="false">
                   Services
                 </a>
-                <div class="dropdown-menu nav-dropdown-div1">
+                <div  class={`${navopen
+                  ? "nav-dropdown-div1 show"
+                  : "nav-dropdown-div1"
+                  } `}>
                   <Link class="dropdown-item" href='/account-management' onClick={() => {
-                    settoggle(!toggle);
+                    settoggle(false); setnavopen(false)
                   }}>Account Management</Link>
 
                   <div class="dropdown-divider"></div>
                   <Link class="dropdown-item" href='/ebc' onClick={() => {
-                    settoggle(!toggle);
+                    settoggle(true); setnavopen(false)
                   }}>EBC / A+</Link>
 
                   <div class="dropdown-divider"></div>
                   <Link class="dropdown-item" href='/ppc' onClick={() => {
-                    settoggle(!toggle);
+                    settoggle(true); setnavopen(false)
                   }} >PPC</Link>
 
                   <div class="dropdown-divider"></div>
                   <Link class="dropdown-item" href='/listing' onClick={() => {
-                    settoggle(!toggle);
+                    settoggle(false); setnavopen(false)
                   }}>Listing</Link>
                 </div>
               </li>
@@ -187,6 +191,7 @@ function Navbar() {
                   href="#"
                   onClick={() => {
                     settoggle(!toggle);
+                    setnavopen(false)
                   }}
                 >
                   Career
@@ -199,6 +204,7 @@ function Navbar() {
                   href="#"
                   onClick={() => {
                     settoggle(!toggle);
+                    setnavopen(false)
                   }}
                 >
                   Book Meeting

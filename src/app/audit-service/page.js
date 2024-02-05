@@ -132,15 +132,15 @@ function DesignServices() {
 
                         <Marquee>
                             <div className="design-slide-pic-div1">
-                                <Image src={slidepic1} />
+                                <Image src={slidepic1} alt="" />
                             </div>
 
                             <div className="design-slide-pic-div1">
-                                <Image src={slidepic2} />
+                                <Image src={slidepic2} alt="" />
                             </div>
 
                             <div className="design-slide-pic-div1">
-                                <Image src={slidepic3} />
+                                <Image src={slidepic3} alt="" />
                             </div>
 
                         </Marquee>
@@ -155,15 +155,15 @@ function DesignServices() {
 
                         <Marquee>
                             <div className="design-slide2-pic-div1">
-                                <Image src={slidepic3} />
+                                <Image src={slidepic3} alt="" />
                             </div>
 
                             <div className="design-slide2-pic-div1">
-                                <Image src={slidepic5} />
+                                <Image src={slidepic5} alt="" />
                             </div>
 
                             <div className="design-slide2-pic-div1">
-                                <Image src={slidepic6} />
+                                <Image src={slidepic6} alt="" />
                             </div>
 
                         </Marquee>
