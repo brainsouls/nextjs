@@ -1,6 +1,11 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
+ @font-face {
+    font-family: 'Poppins';
+    src: url('../font/poppins.regular.ttf');
+}
+
 a:hover {
   text-decoration: none !important;
 }
@@ -379,8 +384,9 @@ a:hover {
 
 @media screen and (max-width: 576px) {
   .home-banner-div1 {
-    min-height: 110vh;
+    min-height: 30vh;
     padding-top: 165px;
+    padding-bottom: 75px ;
     background: linear-gradient(to bottom, #0b232b 84%, white 16%);
   }
 
@@ -400,21 +406,21 @@ a:hover {
   }
 
   .home-banner-text1 {
-    font-size: 50px;
-    line-height: 57px;
+    font-size: 40px;
+    line-height: 50px;
   }
   .home-banner-text1 span {
-    font-size: 50px;
-    line-height: 57px;
+    font-size: 40px;
+    line-height: 50px;
   }
   .home-banner-text2 {
     
     text-align: center;
     font-size: 16px;
     line-height: 30px;
-    margin-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .home-banner-btn1 {
     width: 280px;
@@ -440,7 +446,7 @@ a:hover {
   /* ######## section no 2 Mobile Screen ############## */
 
   .home-section2-div1 {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 70px;
   }
 
@@ -454,9 +460,10 @@ a:hover {
 }
 
   .home-selling-text1 {
-    font-size: 32px;
-    line-height: 41px;
+    font-size: 28px;
+    line-height: 38px;
     text-align: center;
+    margin-top: 20px;
   }
 
   .home-selling-text2 {

@@ -1,6 +1,9 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
+ @font-face {
+    font-family: 'Poppins';
+    src: url('../font/poppins.regular.ttf');
+}
 
 
 .account-banner-div1{
@@ -341,6 +344,7 @@ margin-top: 15px;
 }
 
 .plus-sign-div1-for-mobile{
+    display: none !important;
     border: 1px solid gray;
     width: 160px;
     height: 45px;
@@ -360,7 +364,7 @@ margin-top: 15px;
     background: #363636;
     height: 0.8px;
     width: 100%;
-    margin-top: 35px;
+    margin-top: 38px;
     margin-bottom: 45px;
 }
 

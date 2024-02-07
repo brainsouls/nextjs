@@ -6,9 +6,9 @@ import bannerimg1 from '../Images/Group 10000087439.png'
 import creativeamazonicon2 from '../Images/Group 100000874500.png'
 import creativeamazonicon1 from '../Images/Group 1000008446.png'
 import creativeamazonicon3 from '../Images/Group 1000008746.png'
-import ebclistingimg1 from '../Images/Group 10000087435.png'
-import ebclistingimg2 from '../Images/Group 100000874490.png'
-import ebclistingimg3 from '../Images/Group 100000874508.png'
+import ebclistingimg1 from '../Images/Group 1000008910.png'
+import ebclistingimg2 from '../Images/Group 1000008911.png'
+import ebclistingimg3 from '../Images/Group 1000008912.png'
 import JacktoMedia from '../Components/JacktoMedia'
 
 

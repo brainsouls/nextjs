@@ -6,7 +6,7 @@ import bannerimg1 from "./Images/image 2159.png";
 import bannerplaybtn1 from "./Images/Group 1000008656.png";
 import homepointersvg2 from "./Images/Group 1000008729.svg";
 import homepointersvg1 from "./Images/Group 1000008730.svg";
-import sellingimg1 from "./Images/Group 1000008730.png";
+import sellingimg1 from "./Images/Group 1000008913.png";
 import sellingimg2 from "./Images/Vector.svg";
 
 import sellingcardimg1 from "./Images/Page-1.png";

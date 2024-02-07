@@ -1,5 +1,12 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+
+   @font-face {
+    font-family: 'Poppins';
+    src: url('../font/poppins.regular.ttf');
+}
+
+
 a:hover {
   text-decoration: none !important;
 }
@@ -13,9 +20,6 @@ padding-left: 0px;
 padding-right: 0px;
 }
 
-.footer-div2{
-    
-}
 
 
 .footer-text1{
