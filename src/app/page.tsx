@@ -86,8 +86,8 @@ function Home() {
       <div className="container-fluid home-section2-div1">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-12 d-flex justify-content-start home-section2-div2">
-              <div className="d-flex position-relative justify-content-start">
+            <div className="col-lg-6 col-12 d-flex justify-content-center home-section2-div2">
+              <div className="d-flex position-relative justify-content-center">
                 <Image src={sellingimg1} className="img-fluid" alt="" />
               </div>
             </div>
